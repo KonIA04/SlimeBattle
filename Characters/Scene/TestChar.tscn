@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://6bk2ueexvphn"]
+
+[ext_resource type="Script" uid="uid://clr5vac3fn2pa" path="res://Characters/Scripts/TestChar.cs" id="1_fkq7c"]
+[ext_resource type="Texture2D" uid="uid://cmxu14nqboyyy" path="res://icon.svg" id="1_n6cb6"]
+[ext_resource type="PackedScene" uid="uid://d1ptckcff4u5m" path="res://UI/Scene/Joystick.tscn" id="2_n6cb6"]
+
+[node name="TestChar" type="TextureRect"]
+texture = ExtResource("1_n6cb6")
+script = ExtResource("1_fkq7c")
+
+[node name="Joystick" parent="." instance=ExtResource("2_n6cb6")]
+layout_mode = 1

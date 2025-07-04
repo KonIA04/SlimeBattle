@@ -14,19 +14,24 @@ config/name="SlimeBattle"
 config/name_localized={
 "ru_RU": "Битва жижек"
 }
-config/version="0.1 alpha"
-run/main_scene="uid://hdj87qgcahth"
+config/version="01"
+run/main_scene="uid://6bk2ueexvphn"
 config/features=PackedStringArray("4.4", "C#", "Mobile")
 run/max_fps=60
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/mode=3
+window/emulate_touch_from_mouse=true
+window/version="01"
 
 [dotnet]
 
 project/assembly_name="SlimeBattle"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
